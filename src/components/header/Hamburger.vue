@@ -13,7 +13,15 @@
     hamburger.addEventListener("click", () => {
         hamburger.classList.toggle("active");
     });
+
+    window.addEventListener("resize", () => {
+        if (window.innerWidth >= 768) {
+            hamburger.classList.remove("active");
+        }
     });
+    });
+
+
 
     export default {
         name: 'Hamburger'

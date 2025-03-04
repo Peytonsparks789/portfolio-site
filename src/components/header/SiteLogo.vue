@@ -1,6 +1,6 @@
 <template>
     <div class="site-logo">
-        <RouterLink to="/Home"><img src="../../assets/headerLogo.webp" alt="Site Logo"></RouterLink>
+        <RouterLink to="/"><img src="/assets/site-icons/headerLogo.webp" alt="Site Logo"></RouterLink>
     </div>
 </template>
 

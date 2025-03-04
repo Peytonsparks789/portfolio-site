@@ -1,14 +1,19 @@
-<script setup>
-</script>
-
 <template>
   <main>
-    <h1>This is the home page</h1>
+    <Intro />
+    <SkillTiles />
   </main>
 </template>
 
-<style scoped>
-  main {
-    border: 1px solid red;
-  }
-</style>
+<script>
+  import Intro from '../components/HomeView/Intro.vue';
+  import SkillTiles from '../components/HomeView/SkillTiles.vue';
+
+  export default {
+  name: 'Home',
+  components: {
+    Intro,
+    SkillTiles,
+  },
+};
+</script>

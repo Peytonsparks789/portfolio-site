@@ -31,9 +31,9 @@
                 this.isVisible = !this.isVisible;
             },
             handleResize() {
-            // Check if we are above 768px and update visibility
-            this.isAbove768 = window.innerWidth >= 768;
-            this.isVisible = this.isAbove768; // Make the header visible for large screens
+                // Check if we are above 768px and update visibility
+                this.isAbove768 = window.innerWidth >= 768;
+                this.isVisible = this.isAbove768; // Make the header visible for large screens
             },
         },
         mounted() {
@@ -56,10 +56,10 @@
         position: absolute;
         opacity: 0;
         flex-direction: column;
-        justify-content: center;
+        padding: 10vh 0 0 0;
         align-items: center;
         width: 100vw;
-        height: 100vh;
+        height: 90vh;
         z-index: 10;
         transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
         background-color: var(--header-grey);

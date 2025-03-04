@@ -1,1 +1,0 @@
-import{_ as t,c as o,a,o as n}from"./index-DODgXjgH.js";const s={};function r(c,e){return n(),o("main",null,e[0]||(e[0]=[a("h1",null,"This is the about page",-1)]))}const i=t(s,[["render",r]]);export{i as default};
