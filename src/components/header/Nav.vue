@@ -1,20 +1,27 @@
 <template>
     <nav class="nav">
         <RouterLink to="/">About</RouterLink>
-        <RouterLink to="/Experience">Experience</RouterLink>
         <RouterLink to="/Projects">Projects</RouterLink>
-        <RouterLink to="/Contact">Contact</RouterLink>
+        <a @click="openContactForm">Contact</a>
+        <ContactForm ref="contactForm" />
     </nav>
 </template>
 
 <script>
-    import { RouterLink } from 'vue-router'
+    import { RouterLink } from 'vue-router';
+    import ContactForm from './ContactForm.vue';
 
     export default {
-        name: 'Nav',
-        components: {
-            RouterLink
+    name: 'Nav',
+    components: {
+        RouterLink,
+        ContactForm,
+    },
+    methods: {
+        openContactForm() {
+        this.$refs.contactForm.openModal();
         },
+    },
     };
 </script>
 
@@ -33,6 +40,7 @@
         width: fit-content;
         color: white;
         text-decoration: none;
+        cursor: pointer;
     }
 
     /* Underline effect */

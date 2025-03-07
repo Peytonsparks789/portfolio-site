@@ -1,6 +1,6 @@
 <template>
     <div class="intro">
-        <p class="intro-header">Hello, I am</p>
+        <p class="intro-header">Hello World! I'm</p>
         <p class="intro-header">Peyton Sparks</p>
         <p class="intro-header">Software Engineer / Applications Developer</p>
         <button @click="openResume">Resume</button>
