@@ -20,5 +20,6 @@ npm run build # Create the production build
 
 # Deploy the dist folder to the gh-pages branch
 git add dist -f # Force add the dist folder
+git add .
 git commit -m "Adding dist" # Commit the dist folder changes
 git subtree push --prefix dist origin gh-pages # Push dist folder to gh-pages branch
