@@ -1,10 +1,10 @@
 <template>
   <main>
     <div class="grid">
-      <GridTile title="SimpleConv" image="./public/assets/site-icons/simpleconv.png" link="https://simpleconv.com"/>
-      <GridTile title="Advent of Code" image="./public/assets/site-icons/GitHubLogo.webp" link="https://github.com/Peytonsparks789/AdventOfCode"/>
-      <GridTile title="SimpleCalculator" image="./public/assets/site-icons/GitHubLogo.webp" link="https://github.com/Peytonsparks789/SimpleCalculator"/>
-      <GridTile title="Password Generator" image="./public/assets/site-icons/GitHubLogo.webp" link="https://github.com/Peytonsparks789/Password-Generator"/>
+      <GridTile title="SimpleConv" image="/assets/site-icons/simpleconv.png" link="https://simpleconv.com"/>
+      <GridTile title="Advent of Code" image="/assets/site-icons/GitHubLogo.webp" link="https://github.com/Peytonsparks789/AdventOfCode"/>
+      <GridTile title="SimpleCalculator" image="/assets/site-icons/GitHubLogo.webp" link="https://github.com/Peytonsparks789/SimpleCalculator"/>
+      <GridTile title="Password Generator" image="./assets/site-icons/GitHubLogo.webp" link="https://github.com/Peytonsparks789/Password-Generator"/>
     </div>
   </main>
 </template>
