@@ -12,9 +12,10 @@ if (-not $CommitMessage) {
 # Commit and push changes to the main branch
 git add . # Add all changes
 git commit -m $CommitMessage # Use the parameter for the commit message
-git push origin main # Push changes to the main branch
+git push origin master # Push changes to the main branch
 
 # Build the Vue project
+Remove-Item -Recurse -Force .\dist # Remove the existing build
 npm run build # Create the production build
 
 # Deploy the dist folder to the gh-pages branch
